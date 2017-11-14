@@ -1,14 +1,7 @@
-This code is for the Finch Robot: http://finchrobot.com
+# Finch Lightshow
 
-=================================================================
+You will be creating a lightshow with the Finch robot.  The Finch can do many things, but the simplest utilizes the LEDs in its nose to illuminate it in different colors.
 
-Running JavaScript programs to control the Finch
------------------------------------------------
+### Colors
 
-The standalone.sh/.bat script is used to run a JavaScript program that controls the Finch. 
 
-The available methods are available in Finch.js.
-
-An example is provided in alwaysUpHill.js. In this application, after calibrating, the Finch will always try to move up hill.
-
-To run the example, type "runJS.sh alwaysUpHill.js" in Mac/Linux and "runJS.bat alwaysUpHill.js" in Windows.
