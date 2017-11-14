@@ -2,35 +2,23 @@ load("readline.js");
 load("Finch.js");
 
 // Gain access to our finch
-var finch = new Finch();
+let finch = new Finch();
 
+// -----------------------------------------------
+// Don't change anything above the line
+
+// Our first set of code will illuminate the Finch in one color, wait 1 second, then illuminate it in a different color
 finch.setLED(255,0,0);
 wait(1000);
 finch.setLED(0,255,0);
+wait(1000);
 
-// for (var j = 0; j < 5; j += 1) {
-//     for (var i = 0; i < 10; i += 1) {
-//         finch.setLED(255/10*i, 0, 0);
-//         wait(500);
-//     }
-// }
-
-// Traffic light
-for (var i = 0; i < 9; i += 1) {
-    if (i % 3 == 0) {
-        finch.setLED(45, 201, 55);
-    } else if (i % 3 == 1) {
-        finch.setLED(231,180,22)
-    } else {
-        finch.setLED(255,50,50)
-    }
-    wait(1000);
-}
+// Traffic Light
+// Write your code here to model 3 cycles of a traffic light
 
 
-
-
-
+// Light show
+// Write your own code here to create a light show of your choosing
 
 
 
